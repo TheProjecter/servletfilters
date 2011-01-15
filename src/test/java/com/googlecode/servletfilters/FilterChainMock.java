@@ -13,7 +13,12 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  *  under the License.
+ *
+ *  Versioning:
+ *  $LastChangedDate$
+ *  $LastChangedRevision$
  */
+
 package com.googlecode.servletfilters;
 
 import java.io.IOException;
@@ -23,7 +28,7 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
 /**
- *
+ * Mock implementation of {@link FilterChain}.
  * @author Sebastian Prehn <sebastian.prehn@planetswebdesign.de>
  */
 public class FilterChainMock implements FilterChain {

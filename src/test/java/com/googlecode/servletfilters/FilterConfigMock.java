@@ -13,6 +13,10 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  *  under the License.
+ *
+ *  Versioning:
+ *  $LastChangedDate$
+ *  $LastChangedRevision$
  */
 
 package com.googlecode.servletfilters;
@@ -26,7 +30,7 @@ import javax.servlet.ServletContext;
 
 
 /**
- *
+ * Mock implementation of {@link FilterConfig}.
  * @author Sebastian Prehn <sebastian.prehn@planetswebdesign.de>
  */
 public class FilterConfigMock implements FilterConfig{
