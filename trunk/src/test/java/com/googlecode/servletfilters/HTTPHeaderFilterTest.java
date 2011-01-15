@@ -13,6 +13,10 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  *  under the License.
+ *
+ *  Versioning:
+ *  $LastChangedDate$
+ *  $LastChangedRevision$
  */
 
 package com.googlecode.servletfilters;
@@ -29,7 +33,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
+ * Unit test for HTTPHeaderFilter.
  * @author Sebastian Prehn <sebastian.prehn@planetswebdesign.de>
  */
 public class HTTPHeaderFilterTest {
@@ -50,11 +54,6 @@ public class HTTPHeaderFilterTest {
     }
 
     @Test
-    public void testSomeMethod() {
-    }
-
-
-     @Test
     public void testDoFilter() throws ServletException, IOException {
         Map<String, String> parameter = new HashMap<String, String>();
         parameter.put("Cache-Control", "max-age=2419200, public");

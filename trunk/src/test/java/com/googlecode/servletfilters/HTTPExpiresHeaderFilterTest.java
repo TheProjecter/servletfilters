@@ -29,15 +29,13 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.TimeZone;
 import javax.servlet.ServletException;
-import javax.servlet.ServletRequest;
 import org.apache.shale.test.mock.MockHttpServletRequest;
-import org.apache.shale.test.mock.MockServletContext;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- *
+ * Unit test for HTTPExpiresHeaderFilter.
  * @author Sebastian Prehn <sebastian.prehn@planetswebdesign.de>
  */
 public class HTTPExpiresHeaderFilterTest {
