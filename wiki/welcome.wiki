@@ -1,0 +1,13 @@
+#summary Welcome to Servlet Filters.
+
+= Introduction =
+
+The Servlet Filters projects provides a collection of common servlet filters for java web applications based on the [http://jcp.org/aboutJava/communityprocess/mrel/jsr154/index.html Servlet 2.5 specification].
+
+= Details =
+
+The following filters are provided:
+  * *HTTPExpiresHeaderFilter* to set the expires header on a response
+  * *HTTPHeaderFilter* to set static http headers on a response
+
+= Installation =
