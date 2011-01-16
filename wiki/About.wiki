@@ -1,4 +1,4 @@
-#summary About servletfilters
+#summary About servletfilters project
 
 = Introduction =
 
@@ -11,6 +11,7 @@ The following filters are provided:
   * *HTTPHeaderFilter* to set static http headers on a response
 
 = Installation =
+
 The latest version can be downloaded from the [http://code.google.com/p/servletfilters/downloads/list downloads] page.
 
 If you would like to use servletfilters in your maven build, include the following in your pom.xml:
