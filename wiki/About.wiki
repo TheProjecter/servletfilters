@@ -1,4 +1,4 @@
-#summary About servletfilters project
+#summary About servletfilters project.
 
 = Introduction =
 
