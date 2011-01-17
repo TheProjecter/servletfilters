@@ -104,7 +104,7 @@ public class HTTPExpiresHeaderFilter implements Filter {
      */
     @Override
     public void init(final FilterConfig filterConfig) throws ServletException {
-        String ttlSeconds = filterConfig.getInitParameter("ttl");
+        final String ttlSeconds = filterConfig.getInitParameter("ttl");
 
         if(ttlSeconds == null) {
             throw new ServletException("parameter ttl is required");
@@ -119,8 +119,8 @@ public class HTTPExpiresHeaderFilter implements Filter {
 
     @Override
     public void doFilter(final ServletRequest request, final ServletResponse response, final FilterChain chain) throws IOException, ServletException {
-        HttpServletResponse httpResponse = (HttpServletResponse) response;
-        Date expireDate = new Date((new Date().getTime()) + ttl);
+        final HttpServletResponse httpResponse = (HttpServletResponse) response;
+        final Date expireDate = new Date((new Date().getTime()) + ttl);
         httpResponse.setHeader("Expires", getRFC1123Date(expireDate));
         chain.doFilter(request, response);
     }
