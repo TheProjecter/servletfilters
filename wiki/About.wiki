@@ -12,8 +12,6 @@ The following filters are provided:
 
 = Installation =
 
-The latest version can be downloaded from the [http://code.google.com/p/servletfilters/downloads/list downloads] page.
-
 If you would like to use servletfilters in your maven build, include the following in your pom.xml:
 {{{
 <dependencies>
@@ -24,5 +22,3 @@ If you would like to use servletfilters in your maven build, include the followi
   </dependency>
 <dependencies>
 }}}
-
-*ATTENTION:* Deployment to central is still pending. This is work in progress.
