@@ -11,7 +11,7 @@
     <groupId>com.googlecode.servletfilters</groupId>
     <artifactId>servletfilters</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
     <name>Servlet Filters</name>
     <description>common servlet filters for java web applications</description>
     <url>http://servletfilters.googlecode.com</url>
@@ -31,9 +31,9 @@
     </issueManagement>
     
     <scm>
-        <connection>scm:svn:http://servletfilters.googlecode.com/svn/tags/servletfilters-1.0.1</connection>
-        <developerConnection>scm:svn:https://servletfilters.googlecode.com/svn/tags/servletfilters-1.0.1</developerConnection>
-        <url>http://code.google.com/p/servletfilters/source/browse/tags/servletfilters-1.0.1</url>
+        <connection>scm:svn:http://servletfilters.googlecode.com/svn/trunk/</connection>
+        <developerConnection>scm:svn:https://servletfilters.googlecode.com/svn/trunk/</developerConnection>
+        <url>http://code.google.com/p/servletfilters/source/browse</url>
     </scm>
     
     <developers>
