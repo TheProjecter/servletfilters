@@ -77,10 +77,10 @@ public class HTTPExpiresHeaderFilter implements Filter {
     /**
      * RFC 1123 date formatter.
      */
-    private static final SimpleDateFormat rfc1123Format = new SimpleDateFormat(RFC1123_PATTERN, LOCALE_US);
+    private static final SimpleDateFormat RFC1123_FORMAT = new SimpleDateFormat(RFC1123_PATTERN, LOCALE_US);
 
     static {
-        rfc1123Format.setTimeZone(GMT_ZONE);
+        RFC1123_FORMAT.setTimeZone(GMT_ZONE);
     }
     /**
      * Time to live in milliseconds.
@@ -94,7 +94,7 @@ public class HTTPExpiresHeaderFilter implements Filter {
      * @return the formated string
      */
     static synchronized String getRFC1123Date(final Date date) {
-        return rfc1123Format.format(date);
+        return RFC1123_FORMAT.format(date);
     }
 
     /**
