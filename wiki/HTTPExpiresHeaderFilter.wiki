@@ -22,5 +22,5 @@ Setting an Expires header
           <param-name>ttl</param-name>
           <param-value>2419200</param-value>
       </init-param>
- </filter>
+</filter>
 }}}
