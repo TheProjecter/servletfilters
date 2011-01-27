@@ -11,7 +11,7 @@ All name value pairs that shall be set in the response header have to be provide
 = Example =
 
 Setting a Cache-Control header:
- 
+ {{{
   <filter>
       <description>filter to explicitly enable caching of static resources</description>
        <filter-name>HttpHeaderFilter&lt;/filter-name>
@@ -22,4 +22,4 @@ Setting a Cache-Control header:
            <param-value>max-age=2419200, public</param-value>
        </init-param>
   </filter>
- 
+ }}}
