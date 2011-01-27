@@ -1,3 +1,7 @@
+#summary HTTPExpiresHeaderFilter documentation.
+
+= Introduction =
+
 Filter that sets the HTTP *Expires* header to a date in the future.
 The expiration date is calulated as: current time plus init-parameter ttl.
 
