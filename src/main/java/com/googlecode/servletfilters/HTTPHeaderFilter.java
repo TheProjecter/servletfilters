@@ -38,7 +38,7 @@ import javax.servlet.ServletResponse;
  * <pre>
  * &lt;filter&gt;
  *      &lt;description>filter to explicitly enable caching of static resources&lt;/description&gt;
- *      &lt;filter-name>HttpHeaderFilter&lt;/filter-name&gt;
+ *      &lt;filter-name>HTTPHeaderFilter&lt;/filter-name&gt;
  *      &lt;filter-class>com.googlecode.servletfilters.HTTPHeaderFilter&lt;/filter-class&gt;
  *      &lt;init-param&gt;
  *          &lt;!-- set max-age to one month --&gt;
