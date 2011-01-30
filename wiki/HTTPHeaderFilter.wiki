@@ -14,7 +14,7 @@ Setting a Cache-Control header:
  {{{
   <filter>
       <description>filter to explicitly enable caching of static resources</description>
-       <filter-name>HttpHeaderFilter</filter-name>
+       <filter-name>HTTPHeaderFilter</filter-name>
        <filter-class>com.googlecode.servletfilters.HTTPHeaderFilter</filter-class>
        <init-param>
            <!-- set max-age to one month -->
