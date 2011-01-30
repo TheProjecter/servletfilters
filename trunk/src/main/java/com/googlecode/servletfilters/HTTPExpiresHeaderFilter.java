@@ -44,8 +44,8 @@ import javax.servlet.http.HttpServletResponse;
  * <pre>
  * &lt;filter&gt;
  *      &lt;description>filter to explicitly set the expires header of static resources&lt;/description&gt;
- *      &lt;filter-name>HttpExpiresHeaderFilter&lt;/filter-name&gt;
- *      &lt;filter-class>com.googlecode.servletfilters.HttpExpiresHeaderFilter&lt;/filter-class&gt;
+ *      &lt;filter-name>HTTPExpiresHeaderFilter&lt;/filter-name&gt;
+ *      &lt;filter-class>com.googlecode.servletfilters.HTTPExpiresHeaderFilter&lt;/filter-class&gt;
  *      &lt;init-param&gt;
  *          &lt;!-- one month in seconds --&gt;
  *          &lt;param-name>ttl&lt;/param-name&gt;
