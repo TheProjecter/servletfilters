@@ -15,8 +15,8 @@ Setting an Expires header
 {{{
 <filter>
       <description>filter to explicitly set the expires header of static resources</description>
-      <filter-name>HttpExpiresHeaderFilter</filter-name>
-      <filter-class>com.googlecode.servletfilters.HttpExpiresHeaderFilter</filter-class>
+      <filter-name>HTTPExpiresHeaderFilter</filter-name>
+      <filter-class>com.googlecode.servletfilters.HTTPExpiresHeaderFilter</filter-class>
       <init-param>
           <!-- one month in seconds -->
           <param-name>ttl</param-name>
