@@ -1,4 +1,5 @@
 #summary HTTPHeaderFilter documentation.
+#labels Featured
 
 = Introduction =
 
