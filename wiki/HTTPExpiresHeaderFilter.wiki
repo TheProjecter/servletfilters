@@ -1,4 +1,5 @@
 #summary HTTPExpiresHeaderFilter documentation.
+#labels Featured
 
 = Introduction =
 
